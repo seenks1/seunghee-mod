@@ -15,12 +15,10 @@
     "opusscript": "^0.0.6",
     "soundcloud": "^3.3.0",
     "uws": "^99.0.0",
-    "express": "^4.17.1",
-    "ytdl-core": "github:fent/node-ytdl-core#master"
+    "ytdl-core": "^2.1.2"
   },
   "scripts": {
     "stable": "node bot.js",
-    "test": "echo At this point, the build has succeded and the bot should've been tested, and we don't want to run the bot from the CI."
   },
   "repository": {
     "type": "git",
@@ -30,9 +28,7 @@
   "bugs": {
     "url": "https://github.com/KnoxDevTeam/Lavender/issues"
   },
-  "homepage": "https://lavender.knoxcorp.me",
   "engines": {
-    "node": "8.11.4",
-    "npm": "5.7.1"
+    "node": "12.16.3"
   }
 }
